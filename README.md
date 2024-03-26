@@ -47,15 +47,15 @@ i.e 12th Standard.
 I am a self learnt programmer who likes to learn new things by creating new projects. Here are
 some programming languages and frameworks which I have learn:
   
-  - Go
-  - Python
-  - JavaScript
-  - TypeScript
-  - Reactjs
-  - Svelte
-  - HTML/CSS
-  - Jest
-  - Stimulus
+- Go
+- Python
+- JavaScript
+- TypeScript
+- Reactjs
+- Svelte
+- HTML/CSS
+- Jest
+- Stimulus
 
 In College I have completed many courses like `Problem Solving with Programming in C`,
 `Object Oriented Programming`, `Data Structure and Algorithms` and many more.
@@ -172,49 +172,49 @@ Here are some libraries and tools which will be useful in this project.
 ## Roadmap to Status Dashboard
     
 - ### Here are some designs which I am thinking of for the Status Dashboard.
-    
-    ### Index Page 
-    ![Property 1=Index](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/de7d7535-b920-4381-9b0e-52ca5782a1ee)
-    
-    ### Index Page Explanation
-    ![Index Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/074c5396-40d9-4702-8f0b-455a92383eac)
-    
-    ### Index Page when filter button is clicked
-    ![Property 1=Active Filter Button](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/e7576cbe-7d0d-422e-aa4b-5bb40921eec2)
-    
-    ### Explanation
-    ![Modal Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/5df9ddd9-e185-4630-9942-bcf2dbd8db67)
-
-    ### Index Page when data is fetching
-    ![Property 1=Loading Table Data](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/667233f8-6756-4a0e-9463-8a3b991e8b52)
   
-    ### Explanation
-    ![Loading Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/5d79c16b-6b12-42b1-a79c-80c0ae7a2242)
+  ### Index Page 
+  ![Property 1=Index](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/de7d7535-b920-4381-9b0e-52ca5782a1ee)
+  
+  ### Index Page Explanation
+  ![Index Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/074c5396-40d9-4702-8f0b-455a92383eac)
+  
+  ### Index Page when filter button is clicked
+  ![Property 1=Active Filter Button](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/e7576cbe-7d0d-422e-aa4b-5bb40921eec2)
+  
+  ### Explanation
+  ![Modal Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/5df9ddd9-e185-4630-9942-bcf2dbd8db67)
 
-    ### Index Page when error occur in data fetching
-    ![Property 1=Error while loading](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/bcd5c258-fb4c-4a29-a169-8cb340f7c882)
+  ### Index Page when data is fetching
+  ![Property 1=Loading Table Data](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/667233f8-6756-4a0e-9463-8a3b991e8b52)
 
-    ### Explanation
-    ![Error Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/bc5045a4-697e-40d8-af63-23ca738fdbd3)
+  ### Explanation
+  ![Loading Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/5d79c16b-6b12-42b1-a79c-80c0ae7a2242)
 
-    Links for the above designs:
-    - [Prototype of the website](https://www.figma.com/proto/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=85-3559&t=fVELCnkPXzg3aRqH-1&scaling=contain&page-id=85%3A1943&mode=design)
-    - [Designs of the website pages and instances](https://www.figma.com/file/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=0-1&mode=design)
-    - [Designs of the website components](https://www.figma.com/file/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=75-5835&mode=design)
-    - [Designs of the website table](https://www.figma.com/file/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=14-1833&mode=design)
+  ### Index Page when error occur in data fetching
+  ![Property 1=Error while loading](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/bcd5c258-fb4c-4a29-a169-8cb340f7c882)
+
+  ### Explanation
+  ![Error Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/bc5045a4-697e-40d8-af63-23ca738fdbd3)
+
+  Links for the above designs:
+  - [Prototype of the website](https://www.figma.com/proto/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=85-3559&t=fVELCnkPXzg3aRqH-1&scaling=contain&page-id=85%3A1943&mode=design)
+  - [Designs of the website pages and instances](https://www.figma.com/file/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=0-1&mode=design)
+  - [Designs of the website components](https://www.figma.com/file/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=75-5835&mode=design)
+  - [Designs of the website table](https://www.figma.com/file/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=14-1833&mode=design)
 
 - ### This may be the project structure for our frontend part of the website.
 
-    ![Project Structure](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/b63a79ed-51f8-4ab7-a8fc-366c188ccc45)
+  ![Project Structure](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/b63a79ed-51f8-4ab7-a8fc-366c188ccc45)
 
-    **Components**: from the above design we may use these components initially.
+  **Components**: from the above design we may use these components initially.
 
-    - Table.jsx
-    - Header.jsx
-    - Chip.jsx
-    - Icon.jsx
-    - Card.jsx
-    - Modal.jsx
+  - Table.jsx
+  - Header.jsx
+  - Chip.jsx
+  - Icon.jsx
+  - Card.jsx
+  - Modal.jsx
 
   **Context**: Since, we are making it leaner and simple we may want to use Reactjs Context API to avoid prop drilling. We may store recently fetched data, search query and as project requirements while developing.
   
@@ -222,7 +222,7 @@ Here are some libraries and tools which will be useful in this project.
 
 - ### Communication with APIs
 
-  Since, we are seeking the project to be as simple as possible so we will use the Fetch	API which is used by browsers natively for communication . We can create a Component for rendering table data.
+  Since, we are seeking the project to be as simple as possible so we will use the Fetch API which is used by browsers natively for communication. We can create a Component for rendering table data.
 
   Checkout the example component which fetched the data from an API.
     
@@ -335,32 +335,32 @@ Here are some libraries and tools which will be useful in this project.
 
 - ### Extending API
   - **/metrics/:package-id** (_GET_) which will take these search params.
-      - **type** (_required_) (_type: string delimetered by ","_) this mean we can have `downloads`, `code coverage`, `build failures` and many more .
+    - **type** (_required_) (_type: string delimetered by ","_) this mean we can have `downloads`, `code coverage`, `build failures` and many more .
 
-      ### Response Skeleton
+    ### Response Skeleton
 
-      ```js
-      {
-        pkgName: string,
-        githubURl: string,
-        documentation: string,
-        data: {
-          downloads: [
-            { date: string, value: number },
-            ...
-          ],
-          codeCoverage: [
-            { date: string, value: number },
-            ...
-          ],
-          buildFailures: [
-            { date: string, value: number },
-            ...
-          ]
-          // add more data as defined in type
-        },
-      }
-      ```
+    ```js
+    {
+      pkgName: string,
+      githubURl: string,
+      documentation: string,
+      data: {
+        downloads: [
+          { date: string, value: number },
+          ...
+        ],
+        codeCoverage: [
+          { date: string, value: number },
+          ...
+        ],
+        buildFailures: [
+          { date: string, value: number },
+          ...
+        ]
+        // add more data as defined in type
+      },
+    }
+    ```
 
 ## Project Documentation
 
@@ -376,11 +376,11 @@ With the help of the developer dashboard, we can quickly view which packages hav
 
 I've made significant contributions to several well-respected frameworks. Here are some highlights:
 - [Qwik's website](https://qwik.dev/) a frontend framework which introduced `Resumability` to frontend world.
-    - I helped enhance the user experience of Qwik's website by redesigning the [Media Page](https://qwik.dev/media) 
-    - I'm also nearing completion on the development of the [package manager tabs](https://github.com/BuilderIO/qwik/pull/5649) which will be integrated into production soon.
+  - I helped enhance the user experience of Qwik's website by redesigning the [Media Page](https://qwik.dev/media) 
+  - I'm also nearing completion on the development of the [package manager tabs](https://github.com/BuilderIO/qwik/pull/5649) which will be integrated into production soon.
 - [Wagtail](https://wagtail.org/)
-    - Implementing a production-ready [url generator copy button](https://github.com/wagtail/wagtail/pull/11317) using [stimulusjs](https://stimulus.hotwired.dev/)
-    - Migration of components from vanillajs to [stimulusjs](https://stimulus.hotwired.dev/) here are some migrations [enableDirtyFormCheck](https://github.com/wagtail/wagtail/pull/11373) and [tabs.js](https://github.com/wagtail/wagtail/pull/11542)
+  - Implementing a production-ready [url generator copy button](https://github.com/wagtail/wagtail/pull/11317) using [stimulusjs](https://stimulus.hotwired.dev/)
+  - Migration of components from vanillajs to [stimulusjs](https://stimulus.hotwired.dev/) here are some migrations [enableDirtyFormCheck](https://github.com/wagtail/wagtail/pull/11373) and [tabs.js](https://github.com/wagtail/wagtail/pull/11542)
 
 In addition to my open-source experience, I'm currently enrolled in a `Database Management System (DBMS)` course at college. This course is equipping me with the skills to execute queries efficiently and apply optimization techniques, which I'm eager to leverage in this project.
 
