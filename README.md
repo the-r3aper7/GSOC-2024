@@ -9,6 +9,7 @@
     - [Implementation of REST API](#implementation-of-rest-api)
   - [Roadmap to Historical overviews and per package metrics.](#roadmap-to-historical-overviews-and-other-drill-down-metrics)
     - [Per Package Metrics Designs](#here-are-some-designs-which-i-am-thinking-of-for-the-metrics-page)
+    - [Extending Frontend](#extending-frontend)
     - [Extending API](#extending-api)
   - [Project Documentation](#project-documentation)
 - [Why this project?](#why-this-project)
@@ -174,28 +175,29 @@ Here are some libraries and tools which will be useful in this project.
 - ### Here are some designs which I am thinking of for the Status Dashboard.
   
   ### Index Page 
-  ![Property 1=Index](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/de7d7535-b920-4381-9b0e-52ca5782a1ee)
+  ![Index Page](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/46eb9f8f-9bc3-4816-a564-af65ca1f5138)
   
   ### Index Page Explanation
-  ![Index Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/074c5396-40d9-4702-8f0b-455a92383eac)
-  
+  ![Index Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/f426b6d8-c0a5-43a4-a847-a75248b52f2f)
+
   ### Index Page when filter button is clicked
-  ![Property 1=Active Filter Button](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/e7576cbe-7d0d-422e-aa4b-5bb40921eec2)
-  
+  ![Property 1=Active Filter Button](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/42c347f7-11be-4b89-9c60-b45bf3daf2a5)
+
   ### Explanation
-  ![Modal Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/5df9ddd9-e185-4630-9942-bcf2dbd8db67)
+  ![Index Page Explained(3)](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/b1adc0b9-dd7d-48ef-8fb3-b15e6b4f71e5)
 
   ### Index Page when data is fetching
-  ![Property 1=Loading Table Data](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/667233f8-6756-4a0e-9463-8a3b991e8b52)
+  ![Property 1=Loading Table Data](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/7f04a1fd-275f-44d0-9aa4-0cc9a1a6c4fb)
 
   ### Explanation
-  ![Loading Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/5d79c16b-6b12-42b1-a79c-80c0ae7a2242)
+  ![Index Page Explained(1)](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/a6d512aa-0e17-4142-8647-aabe6885f650)
+
 
   ### Index Page when error occur in data fetching
-  ![Property 1=Error while loading](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/bcd5c258-fb4c-4a29-a169-8cb340f7c882)
+  ![Property 1=Error while loading](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/3650e48f-40e2-4446-a9b2-36d4d017c269)
 
   ### Explanation
-  ![Error Page Explained](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/bc5045a4-697e-40d8-af63-23ca738fdbd3)
+  ![Index Page Explained(2)](https://github.com/stdlib-js/google-summer-of-code/assets/80447788/542477d7-4713-436a-9876-e7f05f1f2869)
 
   Links for the above designs:
   - [Prototype of the website](https://www.figma.com/proto/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=85-3559&t=fVELCnkPXzg3aRqH-1&scaling=contain&page-id=85%3A1943&mode=design)
@@ -267,7 +269,7 @@ Here are some libraries and tools which will be useful in this project.
     {
       data: [
         {
-          id: string, // usefull for as key while mapping
+          id: string, // useful for as key while mapping
           name: string,
           stars: number,
           status: string,
@@ -292,7 +294,7 @@ Here are some libraries and tools which will be useful in this project.
     {
       data: [
         {
-          id: string, // usefull for as key while mapping
+          id: string, // useful for as key while mapping
           name: string,
           stars: number,
           status: string,
@@ -332,6 +334,11 @@ Here are some libraries and tools which will be useful in this project.
 
   Links for the above designs:
     - [Prototype of the website](https://www.figma.com/proto/aenWqD5lmtYrIuvDTs0ctI/GSOC-2024?type=design&node-id=128-3377&t=qeihihU4o5fcrG17-1&scaling=contain&page-id=85%3A1943&starting-point-node-id=128%3A3377&mode=design)
+
+- ### Extending Frontend
+  - Currently for demo purposes I have used [Lightweight Charts](https://tradingview.github.io/lightweight-charts/) library by [Trading View](https://www.tradingview.com/). 
+  > NOTE! this may change as recommended by mentors in Community Bonding Period. 
+  - Adding Polling to Status Dashboard with dropdown menu for selecting the time interval.
 
 - ### Extending API
   - **/metrics/:package-id** (_GET_) which will take these search params.
