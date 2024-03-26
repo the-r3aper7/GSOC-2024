@@ -70,11 +70,13 @@ Asia/Kolkata UTC +0530
 
 ### Contact details
 
-email:saisrikardumpeti@gmail.com github:the-r3aper7
+- **Email:** saisrikardumpeti@gmail.com 
+- **GitHub:** https://github.com/the-r3aper7
+- **Gitter:** https://matrix.to/#/@the-r3aper7:gitter.im
 
 ### Platform
 
-Linux
+Linux (Fedora)
 
 ### Editor
 
